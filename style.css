@@ -1,5 +1,11 @@
 body {
-    
+    background-image: url("background elden ring.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
     text-align: center;
 }
 p {
@@ -15,6 +21,23 @@ h1 {margin-top: 50px;}
 .p1 {
     margin-top: -20px;
 }
-.p0 {
-    margin-bottom: -20px;
+div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 650px;
+    margin-right: 650px;
+    background-color: rgb(216, 216, 250);
+    border: 2px;
+    border-style: solid; 
+    border-color: black;
+    border-width: 3px;
+    
+    
+
+}
+.title {
+    font-size: 24px;
+}
+.text {
+    font-size: 16px;
 }
